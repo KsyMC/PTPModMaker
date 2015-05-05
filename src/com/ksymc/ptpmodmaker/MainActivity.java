@@ -77,7 +77,7 @@ public class MainActivity extends Activity implements OnClickListener, OnItemCli
 		valuelist.setAdapter(valuelistAdapter);
 		
 		adView = new AdView(this);
-		adView.setAdUnitId("ca-app-pub-4083161917191939/1906470405");
+		adView.setAdUnitId("");
 		adView.setAdSize(AdSize.BANNER);
 		
 		LinearLayout adLayout = (LinearLayout) findViewById(R.id.adLayout);
